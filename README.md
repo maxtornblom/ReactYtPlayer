@@ -10,7 +10,7 @@ Users can enter search keywords, view the search results, and play their selecte
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/maxtornblom/ReactYtPlayer.git
+   git clone https://github.com/maxtornblom/ReactYtPlayer
    cd ReactYtPlayer
    ```
 
