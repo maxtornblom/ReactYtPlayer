@@ -22,7 +22,7 @@ Users can enter search keywords, view the search results, and play their selecte
 
 3. **Set up the environment variable:**
 
-   Obtain your YouTube API key from the [Google Cloud Console](https://console.cloud.google.com/welcome?project=cedar-channel-395321) and place it in the `.env` file:
+   Obtain your YouTube API key from the [Google Cloud Console](https://console.cloud.google.com) and place it in the `.env` file:
 
    ```
    REACT_APP_API_KEY=your_api_key_here
