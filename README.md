@@ -40,13 +40,6 @@ npm start
 
 This will open the application in your default web browser at [http://localhost:3000](http://localhost:3000).
 
-### Usage
-
-1. Enter a search keyword in the input field.
-2. Click the search button or press "Enter" to initiate the search.
-3. The search results will be displayed as a list of video titles.
-4. Click on a video title to play the selected video in the embedded player.
-5. Use the clear button to reset the search and clear the results.
 
 ### Contributing
 
