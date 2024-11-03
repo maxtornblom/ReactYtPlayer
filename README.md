@@ -1,12 +1,7 @@
 # ReactYtPlayer
 
-ReactYtPlayer is a simple YouTube player built with React that allows users to search for YouTube videos using the YouTube API. Users can enter search keywords, view the search results, and play their selected video directly within the application.
-
-## Features
-
-- Search for YouTube videos by keywords.
-- View video titles and select a video to play.
-- Responsive design that works on different screen sizes.
+ReactYtPlayer is a simple YouTube player built with React that allows users to search for YouTube videos using the YouTube API. 
+Users can enter search keywords, view the search results, and play their selected video directly within the application.
 
 ## Getting Started
 
