@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# ReactYtPlayer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ReactYtPlayer is a simple YouTube player built with React that allows users to search for YouTube videos using the YouTube API. Users can enter search keywords, view the search results, and play their selected video directly within the application.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for YouTube videos by keywords.
+- View video titles and select a video to play.
+- Responsive design that works on different screen sizes.
+- Error handling for API requests.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository:**
 
-### `npm test`
+   ```bash
+   git clone https://github.com/maxtornblom/ReactYtPlayer.git
+   cd ReactYtPlayer
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install the dependencies:**
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Set up the environment variable:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Obtain your YouTube API key from the [Google Cloud Console](https://console.cloud.google.com/welcome?project=cedar-channel-395321) and place it in the `.env` file:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   REACT_APP_API_KEY=your_api_key_here
+   ```
 
-### `npm run eject`
+   Make sure to replace `your_api_key_here` with your actual YouTube API key.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Running the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the development server, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will open the application in your default web browser at [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Enter a search keyword in the input field.
+2. Click the search button or press "Enter" to initiate the search.
+3. The search results will be displayed as a list of video titles.
+4. Click on a video title to play the selected video in the embedded player.
+5. Use the clear button to reset the search and clear the results.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contributing
 
-### Code Splitting
+Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [YouTube Data API](https://developers.google.com/youtube/v3)
+- [React](https://reactjs.org/)
