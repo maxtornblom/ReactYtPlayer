@@ -7,7 +7,82 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.input-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.video-player {
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.video-list-container {
+  max-height: 300px; /* Adjust height as needed */
+  overflow-y: auto;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.video-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.video-list li {
+  margin: 10px 0;
+}
+
+.video-item-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.video-item-button:hover,
+.selected {
+  background-color: #4d4c4c; /* Example highlight color */
+}
+
+.loading {
+  font-size: 18px;
+  margin: 20px;
+  color: #61dafb;
 }
